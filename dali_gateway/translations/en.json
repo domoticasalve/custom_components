@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure DALI Gateway",
+        "data": {
+          "host": "IP Address",
+          "port": "Port"
+        }
+      },
+      "canal": {
+        "title": "Configure DALI Channel",
+        "description": "Enter the channel number and how many luminaires it has.",
+        "data": {
+          "canal": "Channel number (1-4)",
+          "num_luminarias": "Number of luminaires"
+        }
+      }
+    },
+    "error": {
+      "canal_invalido": "Channel must be between 1 and 4.",
+      "luminarias_invalido": "Number of luminaires must be between 1 and 64."
+    },
+    "abort": {
+      "already_configured": "This channel is already configured for that IP."
+    }
+  }
+}

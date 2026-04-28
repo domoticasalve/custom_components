@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar pasarela DALI",
+        "data": {
+          "host": "Dirección IP",
+          "port": "Puerto"
+        }
+      },
+      "canal": {
+        "title": "Configurar canal DALI",
+        "description": "Indica el número de canal y cuántas luminarias tiene asignadas.",
+        "data": {
+          "canal": "Número de canal (1-4)",
+          "num_luminarias": "Número de luminarias"
+        }
+      }
+    },
+    "error": {
+      "canal_invalido": "El canal debe estar entre 1 y 4.",
+      "luminarias_invalido": "El número de luminarias debe estar entre 1 y 64."
+    },
+    "abort": {
+      "already_configured": "Este canal ya está configurado para esa IP."
+    }
+  }
+}

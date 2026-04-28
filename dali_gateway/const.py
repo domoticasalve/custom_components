@@ -1,0 +1,5 @@
+DOMAIN = "dali_gateway"
+CONF_HOST = "host"
+CONF_PORT = "port"
+CONF_CANAL = "canal"
+CONF_NUM_LUMINARIAS = "num_luminarias"

@@ -1,0 +1,10 @@
+{
+  "domain": "dali_gateway",
+  "name": "DALI Gateway",
+  "version": "0.0.1",
+  "config_flow": true,
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "local_push"
+}
